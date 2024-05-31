@@ -1,4 +1,4 @@
-const TreeStore = require("./script.js");
+const TreeStore = require("./src/script.js/index.js");
 const items = require("./items.js");
 
 const treeStore = new TreeStore(items);
