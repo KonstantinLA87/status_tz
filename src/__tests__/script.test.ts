@@ -1,9 +1,8 @@
 import type * as TestFunctions from "../index";
-import { Item } from '../types';
+import { Item } from '../types/types';
 
 const { TreeStore } = jest.requireActual<typeof TestFunctions>("../index.ts")
-const { items } = jest.requireActual<{ items: Item[] }>('../data');
-
+const { items } = jest.requireActual<{ items: Item[] }>('../data/data');
 
 const treeStore = new TreeStore(items);
 

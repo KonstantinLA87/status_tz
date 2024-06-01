@@ -1,4 +1,4 @@
-import { Item, Id } from './types';
+import { Item, Id } from './types/types';
 
 export class TreeStore {
     private items: Item[];
