@@ -16,7 +16,7 @@
 ```
 1. Установить node.js нужной версии (14.21.3^)
 2. Выполнить npm install
-3. Команды можно посомтреть в package.json (build, test, compile, start)
+3. Команды можно посмотреть в package.json (build, test, compile, start)
 
 ```
 
